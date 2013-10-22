@@ -51,7 +51,7 @@ when 'debian'
     components ['contrib']
   end
 
-  package "virtualbox-#{node['virtualbox']['version']}"
+  package "virtualbox"
   package 'dkms'
 
 when 'rhel'
